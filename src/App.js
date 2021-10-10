@@ -1,14 +1,14 @@
 import "./App.css";
-
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Profile from "./components/Profile/Profile";
 function App() {
   return (
-    <div>
-      <div>Empty project</div>
-      <img
-        src="https://cdn.pixabay.com/photo/2015/10/25/21/58/hello-1006426_960_720.png"
-        alt="hi"
-      />
-      <div>check github</div>
+    <div className = 'wrapper'>
+      
+     <Header/>
+     <Navbar/>
+     <Profile/>
     </div>
   );
 }

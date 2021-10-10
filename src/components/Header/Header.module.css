@@ -1,0 +1,9 @@
+div img{
+    width: 60px;
+    border-radius: 50%;
+}
+.wrapper{
+    height: 100px;
+    background-color: rgb(71, 71, 216);
+    grid-area: h;
+}
